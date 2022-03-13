@@ -1,0 +1,79 @@
+.hero{
+    
+    
+    &__image{
+        width: 250px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    
+    &__heading{
+        font-family: 'Fraunces', 'sans-serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        color: darkviolet;
+        margin: 0;
+    }
+    
+    &__text{
+        font-family: 'Fraunces', 'sans-serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color:darkblue;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin: 0;
+        margin-bottom: 35px;
+    }
+    
+    &__list{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__item{
+        width: 350px;
+        margin-bottom: 25px;
+        background-color: black;
+    }
+    
+    &__link{
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        
+    }
+    
+    
+    &__icon{
+        width: 25px;
+        height: 25px;
+        margin-left: 20px;
+        object-fit: contain;
+        object-position: center;
+        box-sizing: content-box;
+        
+    }
+    
+    
+    &__list-title{
+        font-family: 'Fraunces', 'sans-serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        align-items: center;
+        color: white;
+        margin: 0;
+        margin-right: 100px;
+        margin-left: 90px;
+
+    }
+}

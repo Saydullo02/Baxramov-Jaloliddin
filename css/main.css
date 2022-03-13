@@ -341,20 +341,20 @@ template {
   display: none;
 }
 
-/* fraunces-regular - latin */
+/* barlow-regular - latin */
 @font-face {
-  font-family: 'Fraunces';
+  font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/fraunces-v10-latin-regular.woff2") format("woff2"), url("../fonts/fraunces-v10-latin-regular.woff") format("woff");
+  src: url("../fonts/barlow-v11-latin-regular.woff2") format("woff2"), url("../fonts/barlow-v11-latin-regular.woff") format("woff");
 }
 
-/* fraunces-900italic - latin */
+/* barlow-900 - latin */
 @font-face {
-  font-family: 'Fraunces';
-  font-style: italic;
+  font-family: 'Barlow';
+  font-style: normal;
   font-weight: 900;
-  src: url("../fonts/fraunces-v10-latin-900italic.woff2") format("woff2"), url("../fonts/fraunces-v10-latin-900italic.woff") format("woff");
+  src: "../fonts/barlow-v11-latin-900.woff2" format("woff2"), url("../fonts/barlow-v11-latin-900.woff") format("woff");
 }
 
 html {
@@ -424,29 +424,30 @@ main {
 }
 
 .hero__image {
-  width: 250px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
 
 .hero__heading {
-  font-family: 'Fraunces', 'sans-serif';
+  font-family: 'Barlow', 'sans-serif';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 40px;
   line-height: 48px;
-  color: darkviolet;
+  color: black;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .hero__text {
-  font-family: 'Fraunces', 'sans-serif';
+  font-family: 'Barlow', 'sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: darkblue;
+  color: white;
   mix-blend-mode: normal;
   opacity: 0.8;
   margin: 0;
@@ -465,7 +466,7 @@ main {
 
 .hero__item {
   width: 350px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   background-color: black;
 }
 
@@ -476,7 +477,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 3px;
+  padding: 4px;
 }
 
 .hero__icon {

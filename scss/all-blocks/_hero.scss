@@ -1,30 +1,30 @@
 .hero{
-    
-    
+
     &__image{
-        width: 250px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         margin-bottom: 20px;
     }
     
     &__heading{
-        font-family: 'Fraunces', 'sans-serif';
+        font-family: 'Barlow', 'sans-serif';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 900;
         font-size: 40px;
         line-height: 48px;
-        color: darkviolet;
+        color: black;
         margin: 0;
+        margin-bottom: 10px;
     }
     
     &__text{
-        font-family: 'Fraunces', 'sans-serif';
+        font-family: 'Barlow', 'sans-serif';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
-        color:darkblue;
+        color:white;
         mix-blend-mode: normal;
         opacity: 0.8;
         margin: 0;
@@ -38,14 +38,14 @@
     
     &__item{
         width: 350px;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
         background-color: black;
     }
     
     &__link{
         display: flex;
         align-items: center;
-        padding: 3px;
+        padding: 4px;
         
     }
     
